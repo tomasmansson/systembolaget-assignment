@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="anchor-steam;scenario-name" tests="5" failures="0" skipped="5">
+    <testsuite name="anchor-steam;scenario-name" tests="5" failures="0" skipped="3">
         <properties>
             <property name="URI" value="C:/Users/Tomas/Documents/systembolaget-assignment/features/anchor_steam.feature">
             </property>
         </properties>
-        <testcase name="Given that web page is loaded" classname="anchor-steam;scenario-name">
-            <skipped message="">
-            </skipped>
+        <testcase name="Given that web page is loaded" classname="anchor-steam;scenario-name" time="5.847159275">
         </testcase>
-        <testcase name="When I enter anchor steam in the search field" classname="anchor-steam;scenario-name">
-            <skipped message="">
-            </skipped>
+        <testcase name="When I enter anchor steam in the search field" classname="anchor-steam;scenario-name" time="0.547370202">
         </testcase>
         <testcase name="And I click on search" classname="anchor-steam;scenario-name">
             <skipped message="">

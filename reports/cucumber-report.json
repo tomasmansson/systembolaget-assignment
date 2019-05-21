@@ -12,18 +12,26 @@
             "keyword": "Given ",
             "name": "that web page is loaded",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 5847159275
             },
-            "line": 12
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\Tomas\\Documents\\systembolaget-assignment\\step-definitions\\anchor_steam.js:15"
+            }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "name": "I enter anchor steam in the search field",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 547370202
             },
-            "line": 13
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\Tomas\\Documents\\systembolaget-assignment\\step-definitions\\anchor_steam.js:23"
+            }
           },
           {
             "arguments": [],
@@ -57,7 +65,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 3473427059
+              "duration": 2132760044
             },
             "hidden": true,
             "match": {
