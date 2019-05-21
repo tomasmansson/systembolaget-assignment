@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="anchor-steam;scenario-name" tests="5" failures="0" skipped="0">
+    <testsuite name="ballast;report-how-many-articles-appear-when-searching-on-ballast" tests="6" failures="0" skipped="3">
         <properties>
-            <property name="URI" value="C:/Users/Tomas/Documents/systembolaget-assignment/features/anchor_steam.feature">
+            <property name="URI" value="C:\Users\Tomas\Documents\systembolaget-assignment\features\ballast.feature">
             </property>
         </properties>
-        <testcase name="Given that web page is loaded" classname="anchor-steam;scenario-name" time="5.932604184">
+        <testcase name="Given that web page is loaded" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="6.398329728">
         </testcase>
-        <testcase name="When I enter anchor steam in the search field" classname="anchor-steam;scenario-name" time="0.512689866">
+        <testcase name="When I enter &apos;ballast&apos; in the search field" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="0.513161752">
         </testcase>
-        <testcase name="And I click on search" classname="anchor-steam;scenario-name" time="1.631536569">
+        <testcase name="And I click on search" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="1.842293818">
         </testcase>
-        <testcase name="And I select the search result: anchor steam beer" classname="anchor-steam;scenario-name" time="3.091613339">
+        <testcase name="Then it should show how many articles there is in the sortiment based on the search" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast">
+            <skipped message="">
+            </skipped>
         </testcase>
-        <testcase name="Then the product description should contain the specific text we want" classname="anchor-steam;scenario-name" time="0.070836864">
+        <testcase name="And it should show how many articles there is at retailers based on the search" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And it should report the quantities back to me" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast">
+            <skipped message="">
+            </skipped>
         </testcase>
     </testsuite>
 </testsuites>

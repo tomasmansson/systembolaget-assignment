@@ -2,10 +2,10 @@
   {
     "elements": [
       {
-        "id": "anchor-steam;scenario-name",
+        "id": "ballast;report-how-many-articles-appear-when-searching-on-ballast",
         "keyword": "Scenario",
-        "line": 10,
-        "name": "Scenario name",
+        "line": 5,
+        "name": "Report how many articles appear when searching on ballast",
         "steps": [
           {
             "arguments": [],
@@ -13,9 +13,9 @@
             "name": "that web page is loaded",
             "result": {
               "status": "passed",
-              "duration": 5932604184
+              "duration": 6398329728
             },
-            "line": 12,
+            "line": 7,
             "match": {
               "location": "C:\\Users\\Tomas\\Documents\\systembolaget-assignment\\step-definitions\\anchor_steam.js:15"
             }
@@ -23,14 +23,14 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I enter anchor steam in the search field",
+            "name": "I enter 'ballast' in the search field",
             "result": {
               "status": "passed",
-              "duration": 512689866
+              "duration": 513161752
             },
-            "line": 13,
+            "line": 8,
             "match": {
-              "location": "C:\\Users\\Tomas\\Documents\\systembolaget-assignment\\step-definitions\\anchor_steam.js:23"
+              "location": "C:\\Users\\Tomas\\Documents\\systembolaget-assignment\\step-definitions\\ballast.js:11"
             }
           },
           {
@@ -39,45 +39,46 @@
             "name": "I click on search",
             "result": {
               "status": "passed",
-              "duration": 1631536569
+              "duration": 1842293818
             },
-            "line": 14,
+            "line": 9,
             "match": {
               "location": "C:\\Users\\Tomas\\Documents\\systembolaget-assignment\\step-definitions\\anchor_steam.js:29"
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "name": "I select the search result: anchor steam beer",
+            "keyword": "Then ",
+            "name": "it should show how many articles there is in the sortiment based on the search",
             "result": {
-              "status": "passed",
-              "duration": 3091613339
+              "status": "undefined"
             },
-            "line": 15,
-            "match": {
-              "location": "C:\\Users\\Tomas\\Documents\\systembolaget-assignment\\step-definitions\\anchor_steam.js:35"
-            }
+            "line": 10
           },
           {
             "arguments": [],
-            "keyword": "Then ",
-            "name": "the product description should contain the specific text we want",
+            "keyword": "And ",
+            "name": "it should show how many articles there is at retailers based on the search",
             "result": {
-              "status": "passed",
-              "duration": 70836864
+              "status": "undefined"
             },
-            "line": 16,
-            "match": {
-              "location": "C:\\Users\\Tomas\\Documents\\systembolaget-assignment\\step-definitions\\anchor_steam.js:41"
-            }
+            "line": 11
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "it should report the quantities back to me",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2394877740
+              "duration": 123041527
             },
             "hidden": true,
             "match": {
@@ -89,11 +90,11 @@
         "type": "scenario"
       }
     ],
-    "id": "anchor-steam",
+    "id": "ballast",
     "keyword": "Feature",
     "line": 3,
-    "name": "Anchor steam",
+    "name": "Ballast",
     "tags": [],
-    "uri": "C:/Users/Tomas/Documents/systembolaget-assignment/features/anchor_steam.feature"
+    "uri": "C:\\Users\\Tomas\\Documents\\systembolaget-assignment\\features\\ballast.feature"
   }
 ]
