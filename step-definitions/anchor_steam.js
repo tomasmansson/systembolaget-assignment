@@ -20,7 +20,7 @@ module.exports = function () {
         await sleep(sleepTime)
     });
 
-    this.When(/^I enter anchor steam in the search field$/, async function () {
+    this.When(/^I enter 'anchor steam' in the search field$/, async function () {
         let inputSearch = await $('#ProductSearchTextInput')
         inputSearch.sendKeys(search)
         await sleep(sleepTime)
