@@ -13,4 +13,4 @@ Feature: Anchor steam
         When I enter anchor steam in the search field
         And I click on search
         And I select the search result: anchor steam beer
-        Then the products description should contain the specific text
+        Then the product description should contain the specific text we want
