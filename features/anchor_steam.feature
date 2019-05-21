@@ -9,6 +9,8 @@ Feature: Anchor steam
 
     Scenario: Scenario name
 
-        Given Start to type your Given step here
-        When Start to type your When step here
-        Then Start to type your Then step here
+        Given that web page is loaded
+        When I enter anchor steam in the search field
+        And I click on search
+        And I select the search result: anchor steam beer
+        Then the products description should contain the specific text
