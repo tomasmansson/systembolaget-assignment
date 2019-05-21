@@ -13,7 +13,7 @@
             "name": "that web page is loaded",
             "result": {
               "status": "passed",
-              "duration": 5847159275
+              "duration": 5932604184
             },
             "line": 12,
             "match": {
@@ -26,7 +26,7 @@
             "name": "I enter anchor steam in the search field",
             "result": {
               "status": "passed",
-              "duration": 547370202
+              "duration": 512689866
             },
             "line": 13,
             "match": {
@@ -38,34 +38,46 @@
             "keyword": "And ",
             "name": "I click on search",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1631536569
             },
-            "line": 14
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Tomas\\Documents\\systembolaget-assignment\\step-definitions\\anchor_steam.js:29"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "I select the search result: anchor steam beer",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 3091613339
             },
-            "line": 15
+            "line": 15,
+            "match": {
+              "location": "C:\\Users\\Tomas\\Documents\\systembolaget-assignment\\step-definitions\\anchor_steam.js:35"
+            }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the products description should contain the specific text",
+            "name": "the product description should contain the specific text we want",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 70836864
             },
-            "line": 16
+            "line": 16,
+            "match": {
+              "location": "C:\\Users\\Tomas\\Documents\\systembolaget-assignment\\step-definitions\\anchor_steam.js:41"
+            }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2132760044
+              "duration": 2394877740
             },
             "hidden": true,
             "match": {

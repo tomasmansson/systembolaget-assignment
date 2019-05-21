@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="anchor-steam;scenario-name" tests="5" failures="0" skipped="3">
+    <testsuite name="anchor-steam;scenario-name" tests="5" failures="0" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/Tomas/Documents/systembolaget-assignment/features/anchor_steam.feature">
             </property>
         </properties>
-        <testcase name="Given that web page is loaded" classname="anchor-steam;scenario-name" time="5.847159275">
+        <testcase name="Given that web page is loaded" classname="anchor-steam;scenario-name" time="5.932604184">
         </testcase>
-        <testcase name="When I enter anchor steam in the search field" classname="anchor-steam;scenario-name" time="0.547370202">
+        <testcase name="When I enter anchor steam in the search field" classname="anchor-steam;scenario-name" time="0.512689866">
         </testcase>
-        <testcase name="And I click on search" classname="anchor-steam;scenario-name">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I click on search" classname="anchor-steam;scenario-name" time="1.631536569">
         </testcase>
-        <testcase name="And I select the search result: anchor steam beer" classname="anchor-steam;scenario-name">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I select the search result: anchor steam beer" classname="anchor-steam;scenario-name" time="3.091613339">
         </testcase>
-        <testcase name="Then the products description should contain the specific text" classname="anchor-steam;scenario-name">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then the product description should contain the specific text we want" classname="anchor-steam;scenario-name" time="0.070836864">
         </testcase>
     </testsuite>
 </testsuites>
