@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite>
+    <testsuite name="anchor-steam;scenario-name" tests="5" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/Tomas/Documents/systembolaget-assignment/features/anchor_steam.feature">
+            </property>
+        </properties>
+        <testcase name="Given that web page is loaded" classname="anchor-steam;scenario-name">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I enter anchor steam in the search field" classname="anchor-steam;scenario-name">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I click on search" classname="anchor-steam;scenario-name">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And I select the search result: anchor steam beer" classname="anchor-steam;scenario-name">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the products description should contain the specific text" classname="anchor-steam;scenario-name">
+            <skipped message="">
+            </skipped>
+        </testcase>
     </testsuite>
 </testsuites>
