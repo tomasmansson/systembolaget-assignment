@@ -3,3 +3,14 @@
 // Kontrollera att den beskrivande texten innehåller: 
 // ”Maltig, fruktig smak med inslag av torkade aprikoser”.
 
+let { $,  } = require('./funcs')
+
+let sleepTime = 500
+
+module.exports = function () {
+
+
+
+
+
+}
