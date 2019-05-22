@@ -7,6 +7,6 @@ Feature: Ballast
         Given that web page is loaded
         When I enter 'ballast' in the search field
         And I click on search
-        Then it should show how many articles there is in the sortiment based on the search
+        Then it should show how many articles there is in the assortment based on the search
         And it should show how many articles there is at retailers based on the search
         And it should report the quantities back to me
