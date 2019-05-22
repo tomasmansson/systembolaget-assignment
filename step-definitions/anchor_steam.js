@@ -15,7 +15,7 @@ module.exports = function () {
     this.Given(/^that web page is loaded$/, async function () {
         await helpers.loadPage('https://www.systembolaget.se/')
         await sleep(sleepTime)
-        let ageChoice = await $('#modal-agecheck > div > div > div > div > div.content > div.actions.ng-scope > button')
+        ageChoice = await $('#modal-agecheck button.action')
         await ageChoice.click()
         await sleep(sleepTime)
     });
