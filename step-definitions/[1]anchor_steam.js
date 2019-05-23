@@ -3,11 +3,14 @@
 // Kontrollera att den beskrivande texten innehåller: 
 // ”Maltig, fruktig smak med inslag av torkade aprikoser”.
 
-let { $, sleep } = require('./funcs')
+let { $, sleep, clickButton } = require('./funcs')
 
 let sleepTime = 500
 
 let search = 'anchor steam'
+let ageChoice
+let searchButton
+let searchResultButton
 
 module.exports = function () {
 
@@ -15,9 +18,7 @@ module.exports = function () {
     this.Given(/^that web page is loaded$/, async function () {
         await helpers.loadPage('https://www.systembolaget.se/')
         await sleep(sleepTime)
-        ageChoice = await $('#modal-agecheck button.action')
-        await ageChoice.click()
-        await sleep(sleepTime)
+        await clickButton(ageChoice, '#modal-agecheck button.action')
     });
 
     this.When(/^I enter 'anchor steam' in the search field$/, async function () {
@@ -27,15 +28,11 @@ module.exports = function () {
     });
 
     this.When(/^I click on search$/, async function () {
-        let searchButton = await $('#ProductSearchSubmitButton > i')
-        await searchButton.click()
-        await sleep(sleepTime)
+        await clickButton(searchButton, '#ProductSearchSubmitButton > i')
     });
 
     this.When(/^I select the search result: anchor steam beer$/, async function () {
-        let searchResultButton = await $('.row-container.clearfix')
-        await searchResultButton.click()
-        await sleep(sleepTime * 6)
+        await clickButton(searchResultButton, '.row-container.clearfix')
     });
 
     this.Then(/^the product description should contain the specific text we want$/, async function () {

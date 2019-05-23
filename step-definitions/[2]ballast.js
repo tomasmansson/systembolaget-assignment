@@ -1,7 +1,7 @@
 // 2) Gör en sökning på ”ballast”, rapportera hur många
 // artiklar som finns i hela sortimentet samt via ombud.
 
-let { $, sleep } = require('./funcs')
+let { $, sleep, clickButton } = require('./funcs')
 
 let sleepTime = 500
 
