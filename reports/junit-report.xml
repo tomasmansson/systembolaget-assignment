@@ -5,17 +5,17 @@
             <property name="URI" value="C:\Projects\systembolaget-assignment\features\ballast.feature">
             </property>
         </properties>
-        <testcase name="Given that web page is loaded" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="9.443067038">
+        <testcase name="Given that web page is loaded" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="7.060441014">
         </testcase>
-        <testcase name="When I enter &apos;ballast&apos; in the search field" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="0.524391958">
+        <testcase name="When I enter &apos;ballast&apos; in the search field" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="0.51948643">
         </testcase>
-        <testcase name="And I click on search" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="3.094353039">
+        <testcase name="And I click on search" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="2.586695513">
         </testcase>
-        <testcase name="Then it should show how many articles there is in the assortment based on the search" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="0.041234192">
+        <testcase name="Then it should show how many articles there is in the assortment based on the search" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="0.055244216">
         </testcase>
-        <testcase name="And it should show how many articles there is at retailers based on the search" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="0.770178625">
+        <testcase name="And it should show how many articles there is at retailers based on the search" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="0.861740128">
         </testcase>
-        <testcase name="And it should report the quantities back to me" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="0.00342471">
+        <testcase name="And it should report the quantities back to me" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="0.001714631">
         </testcase>
     </testsuite>
 </testsuites>
