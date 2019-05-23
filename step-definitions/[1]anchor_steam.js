@@ -38,8 +38,9 @@ module.exports = function () {
     this.Then(/^the product description should contain the specific text we want$/, async function () {
         let beerInfo = await $('div.product-details.options-0')
         let text = await beerInfo.getText()
-        assert (text.includes('Maltig, fruktig smak med inslag av torkade aprikoser'), 'the product description is not containing the text that we wanted')
-      });
+        assert(text.includes('Maltig, fruktig smak med inslag av torkade aprikoser')
+            , 'the product description is not containing the text that we wanted')
+    });
 
 
 }
