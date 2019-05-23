@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="ballast;report-how-many-articles-appear-when-searching-on-ballast" tests="6" failures="0" skipped="0">
+    <testsuite name="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" tests="6" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Projects\systembolaget-assignment\features\[2]ballast.feature">
+            <property name="URI" value="C:\Projects\systembolaget-assignment\features\[3]burlov_centrum.feature">
             </property>
         </properties>
-        <testcase name="Given that web page is loaded" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="8.238032714">
+        <testcase name="Given that web page is loaded" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="6.028536027">
         </testcase>
-        <testcase name="When I enter &apos;ballast&apos; in the search field" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="0.544231952">
+        <testcase name="When I click on &apos;Våra öppettider&apos;" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="1.166896023">
         </testcase>
-        <testcase name="And I click on search" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="2.582771318">
+        <testcase name="And I click on &apos;Skåne län&apos;" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="0.583279337">
         </testcase>
-        <testcase name="Then it should show how many articles there is in the assortment based on the search" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="0.04045197">
+        <testcase name="And I click on &apos;Burlövs Centrum&apos;" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="1.679351558">
         </testcase>
-        <testcase name="And it should show how many articles there is at retailers based on the search" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="0.722868132">
+        <testcase name="And I click on &apos;Visa fler&apos;" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="1.066371679">
         </testcase>
-        <testcase name="And it should report the quantities back to me" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="0.002592995">
+        <testcase name="Then It should show that it is closed on Kristi himmelfärd" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="0.026459014">
         </testcase>
     </testsuite>
 </testsuites>

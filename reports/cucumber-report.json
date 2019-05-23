@@ -2,10 +2,10 @@
   {
     "elements": [
       {
-        "id": "ballast;report-how-many-articles-appear-when-searching-on-ballast",
+        "id": "burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd",
         "keyword": "Scenario",
-        "line": 5,
-        "name": "Report how many articles appear when searching on ballast",
+        "line": 6,
+        "name": "Confirm that Burlovs Centrum has closed on Kristi Himmelfärd",
         "steps": [
           {
             "arguments": [],
@@ -13,9 +13,9 @@
             "name": "that web page is loaded",
             "result": {
               "status": "passed",
-              "duration": 8238032714
+              "duration": 6028536027
             },
-            "line": 7,
+            "line": 8,
             "match": {
               "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:18"
             }
@@ -23,66 +23,66 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I enter 'ballast' in the search field",
+            "name": "I click on 'Våra öppettider'",
             "result": {
               "status": "passed",
-              "duration": 544231952
+              "duration": 1166896023
             },
-            "line": 8,
+            "line": 9,
             "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[2]ballast.js:16"
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[3]burlov_centrum.js:14"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I click on search",
+            "name": "I click on 'Skåne län'",
             "result": {
               "status": "passed",
-              "duration": 2582771318
+              "duration": 583279337
             },
-            "line": 9,
+            "line": 10,
             "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:30"
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[3]burlov_centrum.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on 'Burlövs Centrum'",
+            "result": {
+              "status": "passed",
+              "duration": 1679351558
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[3]burlov_centrum.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on 'Visa fler'",
+            "result": {
+              "status": "passed",
+              "duration": 1066371679
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[3]burlov_centrum.js:27"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "it should show how many articles there is in the assortment based on the search",
+            "name": "It should show that it is closed on Kristi himmelfärd",
             "result": {
               "status": "passed",
-              "duration": 40451970
+              "duration": 26459014
             },
-            "line": 10,
+            "line": 13,
             "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[2]ballast.js:23"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "it should show how many articles there is at retailers based on the search",
-            "result": {
-              "status": "passed",
-              "duration": 722868132
-            },
-            "line": 11,
-            "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[2]ballast.js:33"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "it should report the quantities back to me",
-            "result": {
-              "status": "passed",
-              "duration": 2592995
-            },
-            "line": 12,
-            "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[2]ballast.js:45"
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[3]burlov_centrum.js:32"
             }
           },
           {
@@ -90,7 +90,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 221169146
+              "duration": 121077725
             },
             "hidden": true,
             "match": {
@@ -102,11 +102,11 @@
         "type": "scenario"
       }
     ],
-    "id": "ballast",
+    "id": "burlovs-centrum-opening-hours",
     "keyword": "Feature",
-    "line": 3,
-    "name": "Ballast",
+    "line": 4,
+    "name": "Burlovs Centrum opening hours",
     "tags": [],
-    "uri": "C:\\Projects\\systembolaget-assignment\\features\\[2]ballast.feature"
+    "uri": "C:\\Projects\\systembolaget-assignment\\features\\[3]burlov_centrum.feature"
   }
 ]
