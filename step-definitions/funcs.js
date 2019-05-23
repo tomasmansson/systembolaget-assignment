@@ -13,6 +13,16 @@ async function $(selector, chosenDriver = driver) {
 
 module.exports.$ = $;
 
+async function clickButton(x, y) {
+    x = await $(y)
+    await x.click()
+    await sleep(500)
+}
+
+module.exports.clickButton = clickButton;
+
+
+
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
