@@ -36,17 +36,17 @@ module.exports = function () {
   this.When(/^I search and select store 'Hansa'$/, async function () {
     let inputSearchStore = await $('#site-picker-input')
     await inputSearchStore.sendKeys(store)
-    await sleep(1000)
 
     //await clickButton(selectSearchHit, '//*[@id="typeahead-15-6596-option-0"]/div/strong[2]')
-    await driver.findElement(By.id('#typeahead-15-6596-option-0')).click()
-    await sleep(500)
-
-
+    await clickButton(selectSearchHit, '.name.combined-match.ng-binding.ng-scope')
   });
 
   this.Then(/^the Hansa store balance should be greater than (\d+)$/, async function (x) {
-
+    storeBalance = await driver.findElement(by.css('.secondary.ng-binding')).getText()
+    storeBalance = storeBalance.replace(/\D/g, '') / 1
+    await sleep(500)
+    console.log('the store ' + store + ' has ' + storeBalance + ' ' + search + ' in stock')
+    assert(storeBalance > 10, 'The Hansa store balance is not greater than 10')
   });
 
 }

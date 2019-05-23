@@ -13,5 +13,5 @@ Feature: Nanny State
         And I click on search
         And I put one in shopping cart
         And I go to my shopping cart
-        And I search and select store 'Hansa' 
+        And I search and select store 'Hansa'
         Then the Hansa store balance should be greater than 10
