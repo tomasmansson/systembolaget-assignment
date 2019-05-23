@@ -3,7 +3,7 @@
 # Kontrollera att den beskrivande texten innehåller:
 # ”Maltig, fruktig smak med inslag av torkade aprikoser”.
 
-Feature: Anchor steam
+Feature: Anchor Steam
 
     Scenario: Search for anchor steam description
 
