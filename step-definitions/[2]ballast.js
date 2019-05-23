@@ -7,6 +7,7 @@ let sleepTime = 500
 
 let search = 'ballast'
 
+let retailersButton
 let amountRetailers
 let amountAssortment
 
@@ -30,9 +31,7 @@ module.exports = function () {
   });
 
   this.Then(/^it should show how many articles there is at retailers based on the search$/, async function () {
-    let retailersButton = await $('li.store-hits > a')
-    await retailersButton.click()
-    await sleep(sleepTime)
+    await clickButton(retailersButton, 'li.store-hits > a')
 
     amountRetailers = await driver.findElement(by.css('li.store-hits.selected > a > span:nth-child(2)')).getText()
     await amountRetailers
