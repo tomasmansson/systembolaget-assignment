@@ -2,10 +2,10 @@
   {
     "elements": [
       {
-        "id": "burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd",
+        "id": "anchor-steam;search-for-anchor-steam-description",
         "keyword": "Scenario",
-        "line": 6,
-        "name": "Confirm that Burlovs Centrum has closed on Kristi Himmelfärd",
+        "line": 10,
+        "name": "Search for anchor steam description",
         "steps": [
           {
             "arguments": [],
@@ -13,68 +13,71 @@
             "name": "that web page is loaded",
             "result": {
               "status": "passed",
-              "duration": 8977269482
+              "duration": 8290816486
             },
-            "line": 8,
+            "line": 12,
             "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\anchor_steam.js:15"
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:18"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I click on 'Våra öppettider'",
+            "name": "I enter 'anchor steam' in the search field",
             "result": {
               "status": "passed",
-              "duration": 1850582513
+              "duration": 522548758
             },
-            "line": 9,
+            "line": 13,
             "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\burlov_centrum.js:10"
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:28"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I click on 'Skåne län'",
+            "name": "I click on search",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 2619393531
             },
-            "line": 10
+            "line": 14,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:34"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "I click on 'Burlövs Centrum'",
+            "name": "I select the search result: anchor steam beer",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 771236189
             },
-            "line": 11
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on 'Visa fler'",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 12
+            "line": 15,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:42"
+            }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "It should show that it is closed on Kristi himmelfärd",
+            "name": "the product description should contain the specific text we want",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1865711540
             },
-            "line": 13
+            "line": 16,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:50"
+            }
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 149466411
+              "duration": 2241910260
             },
             "hidden": true,
             "match": {
@@ -86,11 +89,11 @@
         "type": "scenario"
       }
     ],
-    "id": "burlovs-centrum-opening-hours",
+    "id": "anchor-steam",
     "keyword": "Feature",
-    "line": 4,
-    "name": "Burlovs Centrum opening hours",
+    "line": 6,
+    "name": "Anchor steam",
     "tags": [],
-    "uri": "C:\\Projects\\systembolaget-assignment\\features\\burlov_centrum.feature"
+    "uri": "C:\\Projects\\systembolaget-assignment\\features\\[1]anchor_steam.feature"
   }
 ]

@@ -1,29 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" tests="6" failures="0" skipped="4">
+    <testsuite name="anchor-steam;search-for-anchor-steam-description" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Projects\systembolaget-assignment\features\burlov_centrum.feature">
+            <property name="URI" value="C:\Projects\systembolaget-assignment\features\[1]anchor_steam.feature">
             </property>
         </properties>
-        <testcase name="Given that web page is loaded" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="8.977269482">
+        <testcase name="Given that web page is loaded" classname="anchor-steam;search-for-anchor-steam-description" time="8.290816486">
         </testcase>
-        <testcase name="When I click on &apos;Våra öppettider&apos;" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="1.850582513">
+        <testcase name="When I enter &apos;anchor steam&apos; in the search field" classname="anchor-steam;search-for-anchor-steam-description" time="0.522548758">
         </testcase>
-        <testcase name="And I click on &apos;Skåne län&apos;" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I click on search" classname="anchor-steam;search-for-anchor-steam-description" time="2.619393531">
         </testcase>
-        <testcase name="And I click on &apos;Burlövs Centrum&apos;" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd">
-            <skipped message="">
-            </skipped>
+        <testcase name="And I select the search result: anchor steam beer" classname="anchor-steam;search-for-anchor-steam-description" time="0.771236189">
         </testcase>
-        <testcase name="And I click on &apos;Visa fler&apos;" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then It should show that it is closed on Kristi himmelfärd" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then the product description should contain the specific text we want" classname="anchor-steam;search-for-anchor-steam-description" time="1.86571154">
         </testcase>
     </testsuite>
 </testsuites>
