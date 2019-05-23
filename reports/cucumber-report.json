@@ -13,7 +13,7 @@
             "name": "that web page is loaded",
             "result": {
               "status": "passed",
-              "duration": 6440084355
+              "duration": 9443067038
             },
             "line": 7,
             "match": {
@@ -26,11 +26,11 @@
             "name": "I enter 'ballast' in the search field",
             "result": {
               "status": "passed",
-              "duration": 515566787
+              "duration": 524391958
             },
             "line": 8,
             "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\ballast.js:11"
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\ballast.js:14"
             }
           },
           {
@@ -39,7 +39,7 @@
             "name": "I click on search",
             "result": {
               "status": "passed",
-              "duration": 2467794355
+              "duration": 3094353039
             },
             "line": 9,
             "match": {
@@ -52,11 +52,11 @@
             "name": "it should show how many articles there is in the assortment based on the search",
             "result": {
               "status": "passed",
-              "duration": 40869535
+              "duration": 41234192
             },
             "line": 10,
             "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\ballast.js:18"
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\ballast.js:21"
             }
           },
           {
@@ -65,11 +65,11 @@
             "name": "it should show how many articles there is at retailers based on the search",
             "result": {
               "status": "passed",
-              "duration": 788196469
+              "duration": 770178625
             },
             "line": 11,
             "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\ballast.js:25"
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\ballast.js:27"
             }
           },
           {
@@ -78,11 +78,11 @@
             "name": "it should report the quantities back to me",
             "result": {
               "status": "passed",
-              "duration": 64284
+              "duration": 3424710
             },
             "line": 12,
             "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\ballast.js:36"
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\ballast.js:37"
             }
           },
           {
@@ -90,7 +90,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 113999612
+              "duration": 190236390
             },
             "hidden": true,
             "match": {
