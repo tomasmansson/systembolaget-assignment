@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="anchor-steam;search-for-anchor-steam-description" tests="5" failures="0" skipped="0">
+    <testsuite name="ballast;report-how-many-articles-appear-when-searching-on-ballast" tests="6" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Projects\systembolaget-assignment\features\[1]anchor_steam.feature">
+            <property name="URI" value="C:\Projects\systembolaget-assignment\features\[2]ballast.feature">
             </property>
         </properties>
-        <testcase name="Given that web page is loaded" classname="anchor-steam;search-for-anchor-steam-description" time="8.290816486">
+        <testcase name="Given that web page is loaded" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="8.238032714">
         </testcase>
-        <testcase name="When I enter &apos;anchor steam&apos; in the search field" classname="anchor-steam;search-for-anchor-steam-description" time="0.522548758">
+        <testcase name="When I enter &apos;ballast&apos; in the search field" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="0.544231952">
         </testcase>
-        <testcase name="And I click on search" classname="anchor-steam;search-for-anchor-steam-description" time="2.619393531">
+        <testcase name="And I click on search" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="2.582771318">
         </testcase>
-        <testcase name="And I select the search result: anchor steam beer" classname="anchor-steam;search-for-anchor-steam-description" time="0.771236189">
+        <testcase name="Then it should show how many articles there is in the assortment based on the search" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="0.04045197">
         </testcase>
-        <testcase name="Then the product description should contain the specific text we want" classname="anchor-steam;search-for-anchor-steam-description" time="1.86571154">
+        <testcase name="And it should show how many articles there is at retailers based on the search" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="0.722868132">
+        </testcase>
+        <testcase name="And it should report the quantities back to me" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="0.002592995">
         </testcase>
     </testsuite>
 </testsuites>

@@ -2,10 +2,10 @@
   {
     "elements": [
       {
-        "id": "anchor-steam;search-for-anchor-steam-description",
+        "id": "ballast;report-how-many-articles-appear-when-searching-on-ballast",
         "keyword": "Scenario",
-        "line": 10,
-        "name": "Search for anchor steam description",
+        "line": 5,
+        "name": "Report how many articles appear when searching on ballast",
         "steps": [
           {
             "arguments": [],
@@ -13,9 +13,9 @@
             "name": "that web page is loaded",
             "result": {
               "status": "passed",
-              "duration": 8290816486
+              "duration": 8238032714
             },
-            "line": 12,
+            "line": 7,
             "match": {
               "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:18"
             }
@@ -23,14 +23,14 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I enter 'anchor steam' in the search field",
+            "name": "I enter 'ballast' in the search field",
             "result": {
               "status": "passed",
-              "duration": 522548758
+              "duration": 544231952
             },
-            "line": 13,
+            "line": 8,
             "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:28"
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[2]ballast.js:16"
             }
           },
           {
@@ -39,37 +39,50 @@
             "name": "I click on search",
             "result": {
               "status": "passed",
-              "duration": 2619393531
+              "duration": 2582771318
             },
-            "line": 14,
+            "line": 9,
             "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:34"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I select the search result: anchor steam beer",
-            "result": {
-              "status": "passed",
-              "duration": 771236189
-            },
-            "line": 15,
-            "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:42"
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:30"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the product description should contain the specific text we want",
+            "name": "it should show how many articles there is in the assortment based on the search",
             "result": {
               "status": "passed",
-              "duration": 1865711540
+              "duration": 40451970
             },
-            "line": 16,
+            "line": 10,
             "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:50"
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[2]ballast.js:23"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "it should show how many articles there is at retailers based on the search",
+            "result": {
+              "status": "passed",
+              "duration": 722868132
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[2]ballast.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "it should report the quantities back to me",
+            "result": {
+              "status": "passed",
+              "duration": 2592995
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[2]ballast.js:45"
             }
           },
           {
@@ -77,7 +90,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 2241910260
+              "duration": 221169146
             },
             "hidden": true,
             "match": {
@@ -89,11 +102,11 @@
         "type": "scenario"
       }
     ],
-    "id": "anchor-steam",
+    "id": "ballast",
     "keyword": "Feature",
-    "line": 6,
-    "name": "Anchor steam",
+    "line": 3,
+    "name": "Ballast",
     "tags": [],
-    "uri": "C:\\Projects\\systembolaget-assignment\\features\\[1]anchor_steam.feature"
+    "uri": "C:\\Projects\\systembolaget-assignment\\features\\[2]ballast.feature"
   }
 ]
