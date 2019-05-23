@@ -5,8 +5,6 @@
 
 Feature: Anchor steam
 
-
-
     Scenario: Search for anchor steam description
 
         Given that web page is loaded
