@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="nanny-state;nanny-state,-hansa-store-balance" tests="7" failures="0" skipped="0">
+    <testsuite name="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" tests="6" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Projects\systembolaget-assignment\features\[4]nanny_state.feature">
+            <property name="URI" value="C:\Projects\systembolaget-assignment\features\[3]burlov_centrum.feature">
             </property>
         </properties>
-        <testcase name="Given that web page is loaded" classname="nanny-state;nanny-state,-hansa-store-balance" time="8.409787617">
+        <testcase name="Given that web page is loaded" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="6.44982373">
         </testcase>
-        <testcase name="When I enter &apos;Nanny state&apos; in the search field" classname="nanny-state;nanny-state,-hansa-store-balance" time="0.541665126">
+        <testcase name="When I click on &apos;Våra öppettider&apos;" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="1.432721797">
         </testcase>
-        <testcase name="And I click on search" classname="nanny-state;nanny-state,-hansa-store-balance" time="2.932234543">
+        <testcase name="And I click on &apos;Skåne län&apos;" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="0.603327544">
         </testcase>
-        <testcase name="And I put one in shopping cart" classname="nanny-state;nanny-state,-hansa-store-balance" time="1.147459371">
+        <testcase name="And I click on &apos;Burlövs Centrum&apos;" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="1.856166726">
         </testcase>
-        <testcase name="And I go to my shopping cart" classname="nanny-state;nanny-state,-hansa-store-balance" time="2.60409725">
+        <testcase name="And I click on &apos;Visa fler&apos;" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="1.087065575">
         </testcase>
-        <testcase name="And I search and select store &apos;Hansa&apos;" classname="nanny-state;nanny-state,-hansa-store-balance" time="1.146608883">
-        </testcase>
-        <testcase name="Then the Hansa store balance should be greater than 10" classname="nanny-state;nanny-state,-hansa-store-balance" time="0.603316166">
+        <testcase name="Then It should show that it is closed on Kristi himmelfärd" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="0.055331256">
         </testcase>
     </testsuite>
 </testsuites>

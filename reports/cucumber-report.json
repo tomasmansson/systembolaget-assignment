@@ -2,10 +2,10 @@
   {
     "elements": [
       {
-        "id": "nanny-state;nanny-state,-hansa-store-balance",
+        "id": "burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd",
         "keyword": "Scenario",
-        "line": 9,
-        "name": "Nanny State, Hansa store balance",
+        "line": 6,
+        "name": "Confirm that Burlovs Centrum has closed on Kristi Himmelfärd",
         "steps": [
           {
             "arguments": [],
@@ -13,9 +13,9 @@
             "name": "that web page is loaded",
             "result": {
               "status": "passed",
-              "duration": 8409787617
+              "duration": 6449823730
             },
-            "line": 11,
+            "line": 8,
             "match": {
               "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:19"
             }
@@ -23,79 +23,66 @@
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "I enter 'Nanny state' in the search field",
+            "name": "I click on 'Våra öppettider'",
             "result": {
               "status": "passed",
-              "duration": 541665126
+              "duration": 1432721797
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[3]burlov_centrum.js:14"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on 'Skåne län'",
+            "result": {
+              "status": "passed",
+              "duration": 603327544
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[3]burlov_centrum.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on 'Burlövs Centrum'",
+            "result": {
+              "status": "passed",
+              "duration": 1856166726
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[3]burlov_centrum.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on 'Visa fler'",
+            "result": {
+              "status": "passed",
+              "duration": 1087065575
             },
             "line": 12,
             "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[4]nanny_state.js:20"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I click on search",
-            "result": {
-              "status": "passed",
-              "duration": 2932234543
-            },
-            "line": 13,
-            "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:31"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I put one in shopping cart",
-            "result": {
-              "status": "passed",
-              "duration": 1147459371
-            },
-            "line": 14,
-            "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[4]nanny_state.js:26"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I go to my shopping cart",
-            "result": {
-              "status": "passed",
-              "duration": 2604097250
-            },
-            "line": 15,
-            "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[4]nanny_state.js:31"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "I search and select store 'Hansa'",
-            "result": {
-              "status": "passed",
-              "duration": 1146608883
-            },
-            "line": 16,
-            "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[4]nanny_state.js:36"
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[3]burlov_centrum.js:27"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the Hansa store balance should be greater than 10",
+            "name": "It should show that it is closed on Kristi himmelfärd",
             "result": {
               "status": "passed",
-              "duration": 603316166
+              "duration": 55331256
             },
-            "line": 17,
+            "line": 13,
             "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[4]nanny_state.js:44"
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[3]burlov_centrum.js:32"
             }
           },
           {
@@ -103,7 +90,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 721085235
+              "duration": 111082919
             },
             "hidden": true,
             "match": {
@@ -115,11 +102,11 @@
         "type": "scenario"
       }
     ],
-    "id": "nanny-state",
+    "id": "burlovs-centrum-opening-hours",
     "keyword": "Feature",
-    "line": 7,
-    "name": "Nanny State",
+    "line": 4,
+    "name": "Burlovs Centrum opening hours",
     "tags": [],
-    "uri": "C:\\Projects\\systembolaget-assignment\\features\\[4]nanny_state.feature"
+    "uri": "C:\\Projects\\systembolaget-assignment\\features\\[3]burlov_centrum.feature"
   }
 ]
