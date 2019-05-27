@@ -4,9 +4,7 @@
 // skriv in butik ”Hansa” 
 // och bekräfta att det finns fler än 10 exemplar i butiken.
 
-
 let { $, sleep, clickButton } = require('./funcs')
-
 let sleepTime = 500
 let search = 'Nanny state'
 let store = 'Hansa'
@@ -14,9 +12,7 @@ let addToShoppingCart
 let goToShoppingCart
 let selectSearchHit
 
-
 module.exports = function () {
-
   this.When(/^I enter 'Nanny state' in the search field$/, async function () {
     let inputSearchProduct = await $('#ProductSearchTextInput')
     inputSearchProduct.sendKeys(search)
@@ -36,7 +32,6 @@ module.exports = function () {
   this.When(/^I search and select store 'Hansa'$/, async function () {
     let inputSearchStore = await $('#site-picker-input')
     await inputSearchStore.sendKeys(store)
-
     //await clickButton(selectSearchHit, '//*[@id="typeahead-15-6596-option-0"]/div/strong[2]')
     await clickButton(selectSearchHit, '.name.combined-match.ng-binding.ng-scope')
   });
@@ -48,5 +43,4 @@ module.exports = function () {
     console.log('the store ' + store + ' has ' + storeBalance + ' ' + search + ' in stock')
     assert(storeBalance > 10, 'The Hansa store balance is not greater than 10')
   });
-
 }
