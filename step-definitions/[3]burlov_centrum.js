@@ -3,7 +3,6 @@
 
 let { $, sleep, clickButton } = require('./funcs')
 
-let sleepTime = 500
 let openingHours
 let skaneLan
 let burlovsCentrum
@@ -30,9 +29,8 @@ module.exports = function () {
   });
 
   this.Then(/^It should show that it is closed on Kristi himmelfärd$/, async function () {
-    kristiHimmel = await driver.findElement(by.css('#main li:nth-child(8) span.pull-right')).getText()
+    kristiHimmel = await driver.findElement(by.css('div.row.site-page-content')).getText()
     await kristiHimmel
-    console.log(kristiHimmel)
-    assert (kristiHimmel.includes('Stängt'), 'Stängt is not included in the text')
+    assert (kristiHimmel.includes('Kristi himmelfärd, Stängt'), '"Kristi himmelfärd, Stängt" is not included in the text')
   });
 }
