@@ -1,21 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" tests="6" failures="0" skipped="0">
+    <testsuite name="anchor-steam;search-for-anchor-steam-description" tests="5" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:\Projects\systembolaget-assignment\features\[3]burlov_centrum.feature">
+            <property name="URI" value="C:/Projects/systembolaget-assignment/features/[1]anchor_steam.feature">
             </property>
         </properties>
-        <testcase name="Given that web page is loaded" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="6.44982373">
+        <testcase name="Given that web page is loaded" classname="anchor-steam;search-for-anchor-steam-description" time="6.454693986">
         </testcase>
-        <testcase name="When I click on &apos;Våra öppettider&apos;" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="1.432721797">
+        <testcase name="When I enter &apos;anchor steam&apos; in the search field" classname="anchor-steam;search-for-anchor-steam-description" time="0.516058875">
         </testcase>
-        <testcase name="And I click on &apos;Skåne län&apos;" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="0.603327544">
+        <testcase name="And I click on search" classname="anchor-steam;search-for-anchor-steam-description" time="2.275280704">
         </testcase>
-        <testcase name="And I click on &apos;Burlövs Centrum&apos;" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="1.856166726">
+        <testcase name="And I select the search result: anchor steam beer" classname="anchor-steam;search-for-anchor-steam-description" time="0.586057789">
         </testcase>
-        <testcase name="And I click on &apos;Visa fler&apos;" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="1.087065575">
+        <testcase name="Then the product description should contain the specific text we want" classname="anchor-steam;search-for-anchor-steam-description" time="0.765175818">
         </testcase>
-        <testcase name="Then It should show that it is closed on Kristi himmelfärd" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="0.055331256">
+    </testsuite>
+    <testsuite name="ballast;report-how-many-articles-appear-when-searching-on-ballast" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Projects/systembolaget-assignment/features/[2]ballast.feature">
+            </property>
+        </properties>
+        <testcase name="Given that web page is loaded" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="5.766451266">
+        </testcase>
+        <testcase name="When I enter &apos;ballast&apos; in the search field" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="0.515599783">
+        </testcase>
+        <testcase name="And I click on search" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="2.410982284">
+        </testcase>
+        <testcase name="Then it should show how many articles there is in the assortment based on the search" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="0.040701144">
+        </testcase>
+        <testcase name="And it should show how many articles there is at retailers based on the search" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="0.765368103">
+        </testcase>
+        <testcase name="And it should report the quantities back to me" classname="ballast;report-how-many-articles-appear-when-searching-on-ballast" time="0.001031395">
+        </testcase>
+    </testsuite>
+    <testsuite name="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Projects/systembolaget-assignment/features/[3]burlov_centrum.feature">
+            </property>
+        </properties>
+        <testcase name="Given that web page is loaded" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="5.560997102">
+        </testcase>
+        <testcase name="When I click on &apos;Våra öppettider&apos;" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="1.209282216">
+        </testcase>
+        <testcase name="And I click on &apos;Skåne län&apos;" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="0.579087764">
+        </testcase>
+        <testcase name="And I click on &apos;Burlövs Centrum&apos;" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="1.654231707">
+        </testcase>
+        <testcase name="And I click on &apos;Visa fler&apos;" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="1.072218717">
+        </testcase>
+        <testcase name="Then It should show that it is closed on Kristi himmelfärd" classname="burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd" time="0.048556359">
+        </testcase>
+    </testsuite>
+    <testsuite name="nanny-state;nanny-state,-hansa-store-balance" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Projects/systembolaget-assignment/features/[4]nanny_state.feature">
+            </property>
+        </properties>
+        <testcase name="Given that web page is loaded" classname="nanny-state;nanny-state,-hansa-store-balance" time="5.44428446">
+        </testcase>
+        <testcase name="When I enter &apos;Nanny state&apos; in the search field" classname="nanny-state;nanny-state,-hansa-store-balance" time="0.513207606">
+        </testcase>
+        <testcase name="And I click on search" classname="nanny-state;nanny-state,-hansa-store-balance" time="1.799454208">
+        </testcase>
+        <testcase name="And I put one in shopping cart" classname="nanny-state;nanny-state,-hansa-store-balance" time="1.076547392">
+        </testcase>
+        <testcase name="And I go to my shopping cart" classname="nanny-state;nanny-state,-hansa-store-balance" time="2.03588095">
+        </testcase>
+        <testcase name="And I search and select store &apos;Hansa&apos;" classname="nanny-state;nanny-state,-hansa-store-balance" time="0.697509349">
+        </testcase>
+        <testcase name="Then the Hansa store balance should be greater than 10" classname="nanny-state;nanny-state,-hansa-store-balance" time="0.528230819">
         </testcase>
     </testsuite>
 </testsuites>

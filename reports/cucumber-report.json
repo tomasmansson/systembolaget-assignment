@@ -2,6 +2,213 @@
   {
     "elements": [
       {
+        "id": "anchor-steam;search-for-anchor-steam-description",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Search for anchor steam description",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that web page is loaded",
+            "result": {
+              "status": "passed",
+              "duration": 6454693986
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter 'anchor steam' in the search field",
+            "result": {
+              "status": "passed",
+              "duration": 516058875
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:22"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on search",
+            "result": {
+              "status": "passed",
+              "duration": 2275280704
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I select the search result: anchor steam beer",
+            "result": {
+              "status": "passed",
+              "duration": 586057789
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the product description should contain the specific text we want",
+            "result": {
+              "status": "passed",
+              "duration": 765175818
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2111978919
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "anchor-steam",
+    "keyword": "Feature",
+    "line": 6,
+    "name": "Anchor Steam",
+    "tags": [],
+    "uri": "C:/Projects/systembolaget-assignment/features/[1]anchor_steam.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "ballast;report-how-many-articles-appear-when-searching-on-ballast",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Report how many articles appear when searching on ballast",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that web page is loaded",
+            "result": {
+              "status": "passed",
+              "duration": 5766451266
+            },
+            "line": 7,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter 'ballast' in the search field",
+            "result": {
+              "status": "passed",
+              "duration": 515599783
+            },
+            "line": 8,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[2]ballast.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on search",
+            "result": {
+              "status": "passed",
+              "duration": 2410982284
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "it should show how many articles there is in the assortment based on the search",
+            "result": {
+              "status": "passed",
+              "duration": 40701144
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[2]ballast.js:20"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "it should show how many articles there is at retailers based on the search",
+            "result": {
+              "status": "passed",
+              "duration": 765368103
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[2]ballast.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "it should report the quantities back to me",
+            "result": {
+              "status": "passed",
+              "duration": 1031395
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[2]ballast.js:41"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 105828094
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "ballast",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Ballast",
+    "tags": [],
+    "uri": "C:/Projects/systembolaget-assignment/features/[2]ballast.feature"
+  },
+  {
+    "elements": [
+      {
         "id": "burlovs-centrum-opening-hours;confirm-that-burlovs-centrum-has-closed-on-kristi-himmelfärd",
         "keyword": "Scenario",
         "line": 6,
@@ -13,11 +220,11 @@
             "name": "that web page is loaded",
             "result": {
               "status": "passed",
-              "duration": 6449823730
+              "duration": 5560997102
             },
             "line": 8,
             "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:19"
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:16"
             }
           },
           {
@@ -26,11 +233,11 @@
             "name": "I click on 'Våra öppettider'",
             "result": {
               "status": "passed",
-              "duration": 1432721797
+              "duration": 1209282216
             },
             "line": 9,
             "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[3]burlov_centrum.js:14"
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[3]burlov_centrum.js:12"
             }
           },
           {
@@ -39,11 +246,11 @@
             "name": "I click on 'Skåne län'",
             "result": {
               "status": "passed",
-              "duration": 603327544
+              "duration": 579087764
             },
             "line": 10,
             "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[3]burlov_centrum.js:18"
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[3]burlov_centrum.js:17"
             }
           },
           {
@@ -52,7 +259,7 @@
             "name": "I click on 'Burlövs Centrum'",
             "result": {
               "status": "passed",
-              "duration": 1856166726
+              "duration": 1654231707
             },
             "line": 11,
             "match": {
@@ -65,11 +272,11 @@
             "name": "I click on 'Visa fler'",
             "result": {
               "status": "passed",
-              "duration": 1087065575
+              "duration": 1072218717
             },
             "line": 12,
             "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[3]burlov_centrum.js:27"
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[3]burlov_centrum.js:28"
             }
           },
           {
@@ -78,11 +285,11 @@
             "name": "It should show that it is closed on Kristi himmelfärd",
             "result": {
               "status": "passed",
-              "duration": 55331256
+              "duration": 48556359
             },
             "line": 13,
             "match": {
-              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[3]burlov_centrum.js:32"
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[3]burlov_centrum.js:34"
             }
           },
           {
@@ -90,7 +297,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 111082919
+              "duration": 118097317
             },
             "hidden": true,
             "match": {
@@ -107,6 +314,129 @@
     "line": 4,
     "name": "Burlovs Centrum opening hours",
     "tags": [],
-    "uri": "C:\\Projects\\systembolaget-assignment\\features\\[3]burlov_centrum.feature"
+    "uri": "C:/Projects/systembolaget-assignment/features/[3]burlov_centrum.feature"
+  },
+  {
+    "elements": [
+      {
+        "id": "nanny-state;nanny-state,-hansa-store-balance",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Nanny State, Hansa store balance",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that web page is loaded",
+            "result": {
+              "status": "passed",
+              "duration": 5444284460
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:16"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter 'Nanny state' in the search field",
+            "result": {
+              "status": "passed",
+              "duration": 513207606
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[4]nanny_state.js:17"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I click on search",
+            "result": {
+              "status": "passed",
+              "duration": 1799454208
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[1]anchor_steam.js:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I put one in shopping cart",
+            "result": {
+              "status": "passed",
+              "duration": 1076547392
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[4]nanny_state.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I go to my shopping cart",
+            "result": {
+              "status": "passed",
+              "duration": 2035880950
+            },
+            "line": 15,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[4]nanny_state.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I search and select store 'Hansa'",
+            "result": {
+              "status": "passed",
+              "duration": 697509349
+            },
+            "line": 16,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[4]nanny_state.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the Hansa store balance should be greater than 10",
+            "result": {
+              "status": "passed",
+              "duration": 528230819
+            },
+            "line": 17,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\step-definitions\\[4]nanny_state.js:43"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 120092979
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Projects\\systembolaget-assignment\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "nanny-state",
+    "keyword": "Feature",
+    "line": 7,
+    "name": "Nanny State",
+    "tags": [],
+    "uri": "C:/Projects/systembolaget-assignment/features/[4]nanny_state.feature"
   }
 ]
